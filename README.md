@@ -1,6 +1,6 @@
 # "Kinteract: "
 > 수업 중 단체 웹 채팅.
-> Firebase Web Freindly Chat 기반으로 개발 https://codelabs.developers.google.com/codelabs/firebase-web/#0 
+>> Firebase Web Freindly Chat 기반으로 개발 https://codelabs.developers.google.com/codelabs/firebase-web/#0 
 
 # 1. Kinteract
  

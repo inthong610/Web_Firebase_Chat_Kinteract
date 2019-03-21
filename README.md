@@ -813,7 +813,7 @@ function update(list) {
 ## 2. 개발자 정보
 
 
-- 1415088 홍정수 (jsjs0) : jungsoobranch
+- 홍정수 (jsjs0) : jungsoobranch
   * 로그인 & 로그아웃 기능 구현
   * 채팅방 기능 구현 : 채팅방 생성하기(Add Class), 본인의 채팅방 리스트 불러오기
   * 채팅창 기능 구현 : 메세지 불러오기, 대화하기(텍스트), 채팅방 최상단에서 더 위로 스크롤 시 이전 메세지 로드하기
@@ -821,7 +821,7 @@ function update(list) {
   * 질문 데이터 시각화 기능 구현 UI & 기능 구현 : 질문 데이터 전처리 과정(Twitter Api), 질문 데이터 시각화(Word Cloud)
   * 최종 발표자
   
-- 1771016 김은지 (eun-g-kim) : eunjiBranch
+- 김은지 (eun-g-kim) : eunjiBranch
   * 기존 UI에서 불필요한 부분 삭제
   * 채팅방 UI 구현 : 좋아요 버튼, Word Cloud 버튼, 랭킹 버튼 구현 
   * 채팅방 기능 구현 : 채팅방 삭제하기(Delete Class), 채팅방 사용자 목록 확인
@@ -829,7 +829,7 @@ function update(list) {
   * 랭킹 차트 modal 및 기능 구현 : 좋아요 개수 top 5 데이터 기반으로 차트 생성(amChart)
   * ppt 초안 제작
   
-- 1771044 이원영 (wonyeonglee) : wonyeongbranch
+- 이원영 (wonyeonglee) : wonyeongbranch
   * 기존 UI에서 불필요한 부분 삭제
   * 채팅방 UI 구현 : 로그인창 UI, 팝업창 UI, 마이페이지 랭킹 UI, 좋아요 버튼 UI 구현, 랭킹 페이지 UI 구현(삭제), 채팅방 사용자 수 표시
   * 좋아요 기능 구현 : 좋아요  색깔 변경, 좋아요 취소 기능, 본인 메세지에 좋아요 누를 수 없도록 기능 추가
@@ -837,7 +837,7 @@ function update(list) {
   * ppt 제작
   * 시연 동영상
 
-- 1771098 이가은 (gaeunleeandlee) : gaeun
+- 이가은 (gaeunleeandlee) : gaeun
   * 기존 UI에서 불필요한 부분 삭제
   * 마이페이지 UI및 스크롤바 
   * 채팅창 내 버튼 UI 수정
@@ -854,5 +854,9 @@ See [LICENSE](LICENSE), Apache License 2.0
 + Twitter 형태소 분석기 Api : https://github.com/open-korean-text/open-korean-text-api
 + 질문 데이터 시각화 d3 Word Cloud 오픈소스 : https://github.com/jasondavies/d3-cloud
 + Main 채팅 창 UI 오픈소스 : https://bootsnipp.com/snippets/35mvD
+
+## 5. 최종 업데이트 날짜
+
+2018.12.18(화)
 
 

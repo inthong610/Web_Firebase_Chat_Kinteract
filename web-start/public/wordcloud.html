@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kinteract | word-cloud</title>
+<style>
+
+ 
+/* Center the loader. 로딩. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5 에서 참고 */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+  margin-top:20px;
+}
+</style>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom"></div>
+
+
+<!-- ///////// 이 위까지가 로딩을 위한 HTML, CSS --->
+
+<script src="/__/firebase/5.5.9/firebase-app.js"></script>
+<script src="/__/firebase/5.5.9/firebase-auth.js"></script>
+<script src="/__/firebase/5.5.9/firebase-database.js"></script>
+<script src="/__/firebase/5.5.9/firebase-storage.js"></script>
+<script src="/__/firebase/5.5.9/firebase-messaging.js"></script>
+<script src="/__/firebase/init.js"></script>
+
+<!-- axios. 트위터 api 이용을 위한 http 요청 js-->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<!-- d3.js -->
+<script type="text/javascript" src="scripts/d3.js"></script>
+<script type="text/javascript" src="scripts/d3.layout.cloud.js"></script>
+<script type="text/javascript" src="scripts/d3.wordcloud.js"></script>
+<script type="text/javascript" src="scripts/worldcloud.js"></script>
+</body>
+</html>

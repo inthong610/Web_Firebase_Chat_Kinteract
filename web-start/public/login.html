@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <title>Kinteract | 로그인</title>
+  <style type="text/css">
+    /* config.css */
+
+/* helpers/align.css */
+
+.align {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* helpers/grid.css */
+
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+  max-width: 20rem;
+  width: 90%;
+}
+
+/* helpers/hidden.css */
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* helpers/icon.css */
+
+.icons {
+  display: none;
+}
+
+.icon {
+  display: inline-block;
+  fill: #22741C; <!-- 아이콘 색 -->
+  font-size: 16px;
+  font-size: 1rem;
+  height: 1em;
+  vertical-align: middle;
+  width: 1em;
+}
+
+/* layout/base.css */
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #FFFFFF; <!--- 배경 색 --->
+  color: #242424;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* modules/anchor.css */
+
+a {
+  color: #47C83E; <!--- sign up 글씨 색깔 --->
+  outline: 0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: underline;
+}
+
+/* modules/form.css */
+
+
+.form__field {
+  width : 221px;
+}
+
+.form__input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* modules/login.css */
+
+.login {
+  color: #000000;
+}
+
+.login_btn{
+  background-image: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+    cursor: pointer;
+  width: 221px;
+  border-radius: 0.25rem;
+  padding: 16px;
+  padding: 1rem;
+  background-color: #B8E8DB; <!--- 구글로 로그인하기 색 --->
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.login_btn:focus,
+.login_btn:hover{
+  background-color: #F094D6; <!--- 구글로 로그인하기 에 커서 가져다 놓을 때 바뀌는 색 --->
+}
+
+/* modules/text.css */
+
+p {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  margin-top: 24px;
+  margin-top: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+  </style>
+</head>
+<body class="align">
+<img src="kinteract_logo.png" alt="no picture" style="width:250px;height:150px;">
+  <div class="grid">
+    <div class="login text-center">
+        <button class="login_btn" id="sign-in" type="submit">구글로 로그인하기</button>
+      </div>
+  </div>
+</body>
+<script src="/__/firebase/5.5.9/firebase-app.js"></script>
+<script src="/__/firebase/5.5.9/firebase-auth.js"></script>
+<script src="/__/firebase/5.5.9/firebase-database.js"></script>
+<script src="/__/firebase/5.5.9/firebase-storage.js"></script>
+<script src="/__/firebase/5.5.9/firebase-messaging.js"></script>
+<script src="/__/firebase/init.js"></script>
+
+<script src="scripts/login.js"></script>
+
+</html>

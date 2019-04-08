@@ -7,7 +7,7 @@
 
 ## a. 서비스 설명
 
-Kinteract는 K와 interact의 합성어로서, K= I(In) + C(Class)로 수업 중 소통한다는 의미를 담고있습니다.
+Kinteract는 K와 interact의 합성어로서, K= I(In) + C(Class)로 수업 중 소통한다는 의미를 담고 있습니다.
 
 Kinteract의 이름에서 알 수 있듯이 In Class, 즉 수업 시간에 활용하거나 질문을 돕는 웹 채팅입니다. 
 
